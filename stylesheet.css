@@ -31,6 +31,7 @@ html, body {
 .container{ 
 	max-width: 100%;
 	clear: both;
+	padding: 10px;
 }
 .trade_mark{
 	font-family: Montserrat Subrayada, sans-serif;
@@ -284,53 +285,58 @@ header{
 	text-align: center;
 	font-size: 46px;
 	color: black;
+	font-weight: bold;
 }
 #contact_sect h1 span{
 	color: red;
 }
 #contact_sect .container{
 	border: white 1px solid;
-	padding: 5% 10%;
+	padding: 3% 10%;
 }
 #contact_sect p {
 	color: white;
     text-align: justify;
-	font-size: 19px;
 	background-color: black;
+	font-size: 19px;
+	margin-bottom: 25px;
 }
-#contact_sect ul{
-	list-style: none;
-	clear: left;
-	padding: 10% 0 0;
-	text-align: center;
+.contact-form{
+	width: 60%;
+	margin: 0 auto;
 }
-#contact_sect i{
-	padding: 0 50px;
-	font-size: 38px;
-	color: white;
-	text-shadow: 0 3px 1px #008080;
+label{
+	color: gold;
+	font-size: 18px;
 }
-#contact_sect i:hover{
-	color: red;
+input[type=text],
+input[type=email],
+select,
+textarea{
+	width: 100%;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-form{
-	text-align: center;
-	padding-top: 30px;
+textarea{
+	height: 150px;
 }
-form .name-email {
-	display: block;
-	max-width: 100%;
+input[type=submit]{
+	background-color: #ff571a;
+	border: 1px solid #ff571a;
+	border-radius: 3px;
+	padding: 5px 10px;
+	color: black;
+	font-weight: bold;
 }
-.textInput{
-	width: 30%;
+*:focus{
+	outline:none;
 }
-.emailInput{
-	width: 30%;
+.media-icons a{
+	font-size: 28px;
+	padding: 0 2.5%;
 }
-.message textarea{
-	width: 60.5%;
-	height: 200px;
-	}
 
 /* 
 	LICENSES
