@@ -30,16 +30,15 @@ html, body {
 */
 .container{ 
 	max-width: 100%;
-	clear: both;
 	padding: 10px;
 }
 .trade_mark{
 	font-family: Montserrat Subrayada, sans-serif;
 	font-size: 30px;
-	color: #660066;
+	color: white;
 	font-weight: bold;
-	background-color: gold;
-	padding: 5px 25px;
+	background-color: #4CAF50;
+	padding: 8px 20px;
 	position: fixed;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -84,7 +83,7 @@ header{
 }
 #showcase_sect{
 	position: absolute;
-	width: 1140px;
+	width: 100%;;
 	top: 63%;
 	left: 50%;
 	transform: translate(-50%, -63%);
@@ -208,7 +207,7 @@ header{
 	color: white;
 }
 .qr-box{
-	padding: 20% 0;
+	padding: 50% 0;
 }
 .qr-code{
 	width: 175px;

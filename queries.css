@@ -1,0 +1,44 @@
+/* small screens */
+@media only screen and (max-width:480px){
+
+}
+
+
+
+/* tablets */
+@media only screen and (max-width:767px){
+    .trade_mark{
+        font-size: 24px;
+    }
+    .nav-main li a{
+        font-size: 12px;
+    }
+}
+
+/* tablet - portrait mode */
+@media only screen and (max-width: 1023px){
+    #showcase_sect h1{
+        font-size: 90px;
+        margin-left: 5%;
+    }
+}
+
+/* desktop */
+@media only screen and (max-width: 1200px){
+    
+    #about-sect{
+        height: 125vh;
+    }
+    #about-sect p{
+        font-size: 16px;
+    }
+    .main-bio{
+        height: 108vh;
+    }
+    .media-icons i{
+        font-size: 24px;
+    }
+    .services-box li a{
+    font-size: 10px;        
+    }
+}
