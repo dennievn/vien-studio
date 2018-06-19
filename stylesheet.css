@@ -9,7 +9,10 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+head{
+	margin: 0;
+	padding: 0;
+}
 html, body {
 	font-family: 'Share Tech Mono', monospace!important;
 	font-weight: 300;
@@ -19,6 +22,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 .row{
 	max-width: 100%;
@@ -32,50 +36,41 @@ html, body {
 	max-width: 100%;
 	padding: 10px;
 }
-.trade_mark{
+.trade-mark{
 	font-family: Montserrat Subrayada, sans-serif;
-	font-size: 30px;
 	color: white;
-	font-weight: bold;
 	background-color: #4CAF50;
-	padding: 8px 20px;
-	position: fixed;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float: left;
+	padding: 14px 24px;
+	font-size: 28px;
+	margin: 10px;
+	position: fixed;
 }
-nav h1 a:hover{
-	text-decoration: none;
-	color: white;
+.trade-mark:hover{
+	color: black;
 }
-nav{
-	padding: 10px 0 0 20px;
+nav a{
+	float: right;
 }
-.nav-main{
-	float:right;
-	list-style: none;
-	margin-top: 10px;
-	background-color: black;
-}
-.nav-main span{
-	color: white;
-}
-.nav-main li{
-	display: inline-block;
-	margin: 18px 22px;
-}
-.nav-main li a{
+nav .link{
+	margin: 20px 0;
+	padding: 10px 25px;
 	font-size: 20px;
-	display: inline-block;
+	background-color: black;
 	color: red;
-	text-decoration: none;
 }
-.nav-main li a:hover{
+nav .link:hover{
 	color: gold;
+}
+nav span{
+	color: white;
 }
 
 /*
 	SHOWCASE
 */
-header{
+#showcase{
 	background: url("img/computer-motherboard-pc-wires.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -83,7 +78,7 @@ header{
 }
 #showcase_sect{
 	position: absolute;
-	width: 100%;;
+	width: 100%;
 	top: 63%;
 	left: 50%;
 	transform: translate(-50%, -63%);
@@ -91,12 +86,12 @@ header{
 }
 #showcase_sect h1{
 	font-family: 'Helvetica', sans-serif;
-	font-size: 110px;
+	font-size: 120px;
 	color: white;
 	font-weight: bold;
 	background-color: rgba(0,0,0,0.6);
 	padding: 15px;
-	margin: 0;
+	margin: 0 0 0 10%;
 	display: inline-block;
 }
 .title-one{
@@ -146,7 +141,7 @@ header{
 	background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #fff;
-	height: 115vh;
+	height: 120vh;
 }
 #about-sect h1{
 	margin: 0; /* for fixing random margin-top */
@@ -167,7 +162,7 @@ header{
 }
 .main-bio{ /* container */
 	border: solid white 0.5px;
-	height: 100vh;
+	height: 105vh;
 	margin: auto 10%;
 	text-align: center;
 }
@@ -207,7 +202,7 @@ header{
 	color: white;
 }
 .qr-box{
-	padding: 50% 0;
+	padding: 40% 0;
 }
 .qr-code{
 	width: 175px;
@@ -276,7 +271,7 @@ header{
 	padding: 20px 0;
 	background-image: url("img/columns-420749_1920.jpg") ;
 	background-size: cover;
-	height: 100vh;
+	height: 105vh;
 	background-position: center;
 }
 #contact_sect h1{
@@ -334,7 +329,7 @@ input[type=submit]{
 }
 .media-icons a{
 	font-size: 28px;
-	padding: 0 2.5%;
+	padding-left: 8%;
 }
 
 /* 

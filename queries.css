@@ -1,44 +1,55 @@
-/* small screens */
-@media only screen and (max-width:480px){
-
-}
-
-
-
-/* tablets */
-@media only screen and (max-width:767px){
-    .trade_mark{
-        font-size: 24px;
-    }
-    .nav-main li a{
-        font-size: 12px;
-    }
+/* desktop */
+@media only screen and (max-width: 1200px){
+    .trade-mark{ padding: 12px 20px; }
+    #showcase_sect h1{ font-size: 95px; }
+    #about-sect{ height: 125vh; }
+    #about-sect p{ font-size: 16px; }
+    .main-bio{ height: 108vh; }
+    .media-icons i{ font-size: 24px; }
+    .services-box li a{ font-size: 10px; }
 }
 
 /* tablet - portrait mode */
 @media only screen and (max-width: 1023px){
-    #showcase_sect h1{
-        font-size: 90px;
-        margin-left: 5%;
-    }
+    nav .link{ font-size: 12px; }
+    .trade-mark{ font-size: 24px; }
+    #showcase_sect h1{ font-size: 90px; margin-left: 3%; }
+    #about-sect h1{ font-size: 36px; }
+    .main-bio{ margin: auto 5%;}
+    .img-bio{ width: 80%; }
+    .focus-row{ width: 80%;}
+    .qr-box{ padding: 50% 0;}
+    #services-sect{ height: 125vh;}
+    #services-sect .services-box{ display:inline-block; width: 55%; margin: 1% 25%;}
+    #contact_sect h1{ font-size: 36px;}
+    #contact_sect .container{ padding: 3%;}
+    .contact-form{ width: 75%;}
 }
 
-/* desktop */
-@media only screen and (max-width: 1200px){
-    
-    #about-sect{
-        height: 125vh;
-    }
-    #about-sect p{
-        font-size: 16px;
-    }
-    .main-bio{
-        height: 108vh;
-    }
-    .media-icons i{
-        font-size: 24px;
-    }
-    .services-box li a{
-    font-size: 10px;        
-    }
+
+/* tablets */
+@media only screen and (max-width:767px){
+    body{ font-size: 12px; }
+    .nav-main .link{ display: none;}
+    #showcase_sect h1{margin: 0 2%; font-size: 63px;}
+    #showcase_sect .title-mid{font-size: 100px;}
+    #about-sect{ height: 160vh;}
+    .focus-row .focus-point{ display: inline-block; width: 100%;}
+    .main-bio{ height: 115vh;}
+    .qr-box{ padding: 12% 0; margin: 0;}
+    #services-sect{height: 135vh;}
+    #services-sect .services-box{ width: 75%; margin: 3% 16%;}
+    #contact_sect{ height: 115vh;}
+    #contact_sect h1{ padding-top: 15%;}
+    #contact_sect .container{ border: none;}
+    .contact-form{ width: 96%;}
+    .media-icons a{ padding-left: 6%;}
+
+}
+
+
+
+/* small screens */
+@media only screen and (max-width:480px){
+
 }
